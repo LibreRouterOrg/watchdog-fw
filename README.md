@@ -24,7 +24,8 @@ A compiled version of this code is also provided.
 To use the LibreRouter to program the hardware watchdog you need to install
 avrdude-6.1 installed in the LibreRouter. Version 6.3 of avrdude does not
 work to program from the LibreRouter. You may use the avrdude_6.1-3_mips_24kc.ipk
-that is in this repository installing the dependencies from the openwrt repositories.
+that is in this repository in the misc directory, installing its dependencies
+from the openwrt repositories.
 
 Copy avrdude.conf to /root/.avrduderc in the LibreRouter (is important to use this name!)
 This has the gpio configurations of the programmer.
